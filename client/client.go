@@ -12,7 +12,7 @@ import (
 
 // 客户端主函数
 func main() {
-	conn, err := net.Dial("tcp", "localhost:8888")
+	conn, err := net.Dial("tcp", "192.168.1.114:8888")
 	if err != nil {
 		fmt.Println("连接服务器失败:", err)
 		return
